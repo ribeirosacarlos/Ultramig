@@ -1,5 +1,6 @@
 *{
     font-family: 'Krona One', sans-serif;
+   
 }
 
 
@@ -8,13 +9,23 @@
 }*/
 
 
+
+header{
+    background-color: azure;
+    text-align: center;
+}
+
+
+
 body{
     margin-right: 20%;
     margin-left: 20%;
     text-align:justify;
+    
 }
 
 footer{
     text-align: center;
-    
+
 }
+
