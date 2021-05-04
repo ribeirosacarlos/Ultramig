@@ -1,35 +1,15 @@
 *{
     font-family: 'Krona One', sans-serif;
-    background-color: darkgray;
-   
 }
 
-/*header{
-    background-color: azure;
-    text-align: center;
-}
-
-
-
-body{
-    margin-right: 20%;
-    margin-left: 20%;
-    text-align:justify;
-    
-    
-}
-
-footer{
-    text-align: center;
-
-}
-*/
 main{
     max-width: 700px;
     margin: auto;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: justify;
 }
 
-}
 
 .topnav{
     background-color: #333;
@@ -53,5 +33,13 @@ main{
 .topnav a.active{
     background-color: #04AA6D;
     color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 50px 16px;
+    background-color: #287257;
+    font-size: 15px;
+
 }
 
