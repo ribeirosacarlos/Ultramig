@@ -1,12 +1,24 @@
-.fotos{
-    background-color: blue;
-    text-align: center;
-    width:500px;
-    height: auto;
-    margin-right: 50px;
-    margin-left: 350px;
+*{
+    background-color: #f5f5f5;
 }
 
-.w3-wide{
+.fotos{
+
     text-align: center;
+    width:500px;
+   
+    margin: auto;
 }
+
+.conteudo{
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: justify;
+    display: block;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 0 4px 9px 0;
+}
+
+
