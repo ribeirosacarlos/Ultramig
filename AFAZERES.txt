@@ -1,0 +1,7 @@
+aumentar width do conteudo
+criar um li e ul na lista da media salarial
+colocar textos justificados
+
+
+
+

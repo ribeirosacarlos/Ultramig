@@ -4,74 +4,167 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho Ultramig</title>
-    <link href="style.css" rel="stylesheet">
+    <title>O mercado de trabalho do Técnico de Informática</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="news">News</a>
-        <a href="contact">Contact</a>
-        <a href="#about">About</a>
-    </div>
-    
-    <!-- 
-        <header>
-        <h2>O mercado de trabalho do técnico de informática</h2>
+
+    <nav class="w3-bar w3-black">
+        <a href="#home" class="w3-button w3-bar-item">Home</a>
+        <a href="#band" class="w3-button w3-bar-item">Band</a>
+        <a href="#tour" class="w3-button w3-bar-item">Tour</a>
+        <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+    </nav>
+
+    <section>
+        <img class="fotos" src="hardware.jpg" >
+        <img class="fotos" src="programacao.jpg" >
+        <img class="fotos" src="servidor.jpg" >
+    </section>
+
+    <section class="w3-container w3-content w3-center" style="max-width:600px">
+        <h3>Como é o mercado de trabalho de um Técnico de Informática?</h3>
+    </section>
+
+    <section class="w3-container w3-content w3-center" style="max-width:600px">
+    <p class="w3-justify">
+        O curso Técnico em Informática capacita o aluno para instalar sistemas operacionais,
+        aplicativos, configurar redes de computadores, realizar programação e desenvolver
+        soluções para internet. É durante a formação técnica que você conhece e explora os
+        segmentos mais demandados do mercado. Montagem, manutenção, programação, redes e 
+        banco de dados são algumas das possibilidades dentro dessa profissão.
+    </p>
+    </section>
+
+    <script>
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
         
-        <nav>
-            <ul>
-                <!-- Lista não ordenada -
-                <li> <a href="#">Home</a> </li>
-                <li> <a href="#">Produtos</a> </li>
-                <li> <a href="#">Contato</a> </li>
-            </ul> -->
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("fotos");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 3000);
+        }
+        </script>
 
-            <ol>
-                <!-- Lista Ordenada -->
-                
-            </ol>
-        </nav>
-    </header>
+        <section class="w3-container w3-content w3-center w3-justify" style="max-width:600px">
+    <h2>Possibilidade de atuação no mercado</h2>
 
+    <p>Após se formar, você encontra oportunidades em empresas públicas e privadas de qualquer
+        setor, em assistências técnicas e ainda tem a opção de empreender e trabalhar como
+        autônomo. No entanto, não é preciso esperar a conclusão do curso para iniviar sua
+        trajetória no mercado de trabalho. A área da Informática é um campo com grande oferta
+        de vagas de estágio. Além disso, é a partir dos programas de estágio que você pode
+        construir carreira nas maiores empresas de tecnologia e software do Brasil e do Exterior.</p>
 
-    <main>
+    <h3>Média salarial</h3>
 
-         
-          <div class="conteudo1"> 
+    <p>A Catho -" uma empresa de tecnologia que funciona como um classificado online para vagas
+        de emprego" - divulgou que a média salarial do Técnico em Informática no Brasil é de
+        R$ 1480,35 e, no momento em que essa pesquisa foi realizada, haviam mais de 20 mil vagas
+        de emprego disponíveis em todo o país para esse tipo de profissional.</p>
+        <br>
 
+    <p>Algumas áreas no mercado de trabalho da Informática recebem mais valorização salarial que outras.
+     Dentre elas, veja abaixo as 3 que mais pagam no mercado de trabalho!</p>
+    <br>
 
-            <img class="displayed" src="computador.jpeg" alt="Computador">
+        <!-- lista ordenada -->
+    <p> <!-- colorcar em negrito-->Suporte Técnico em Informática
+        Salário médio para iniciante:<!--testar sublinhado-->R R$ 1.300
+        
+        Salário médio no auge da carreira:<!--testar sublinhado-->R R$ 17.000
 
-            <h1>Como a tecnologia vem crescendo no Brasil</h1>
-    <p>Uma breve descrição do conteúdo da página, no brasil a <span style ="color:red;">tecnologia</span> vem expandindo e aumentando as chances de trabalho </p>
-        <!-- Tema principal -->
+        <!-- colorcar em negrito-->Sistemas
+        Salário médio para iniciante: <!--testar sublinhado-->R$ 2.000
 
-               <p> No Brasil, o crescimento do mercado de trabalho para o profissional de TI, de acordo com a IDC Brasil, será 5,8% só neste ano. Em outros países, como Romênia e Turquia, também há valorização desse setor.
+        Salário médio no auge da carreira: <!--testar sublinhado-->RR$ 15.500
+ 
+        <!-- colorcar em negrito-->E-Commerce
+        Salário médio para iniciante:<!--testar sublinhado-->R R$ 2.900
 
-Se alguém dissesse para um jovem, em meados de 1960, que em 2020 as pessoas estariam se conectando virtualmente para realizar entrevistas de emprego, reuniões, compras, jogos, aniversários e, até mesmo, encontros amorosos, como será que ele reagiria? Hoje é nítido a existência dessa realidade, que está ganhando espaço no dia a dia de pessoas e de corporações.
+        Salário médio no auge da carreira:<!--testar sublinhado-->R R$ 15.000
 
-A era digital está cada vez mais forte e, com a pandemia, as relações virtuais se intensificaram, aumentando também a necessidade de um profissional especializado no assunto para resolver eventuais problemas, principalmente no mercado de trabalho, no qual as empresas estão se reinventando para conectar os funcionários, os processos de produção e, ainda, manter o faturamento em alta.  
+        </p>
 
-Esse profissional é da área da Tecnologia da Informação. E é o responsável por manusear as informações em rede de uma organização, criando e distribuindo-as pelos computadores, além de lidar com processamento de dados, informática, engenharia de software, hardwares e softwares. Ademais, esses profissionais também precisam estar aptos para dar orientações acerca do uso de softwares e implantação e administração de sistemas, afim de otimizar esses processos para todos os envolvidos.</p>
+    <p>Peceba como a média dessas áreas é bem maior que a média do profissonal que não se especializa em nenhuma dessas vertentes da Informática:
 
-            </div>
-    
-    </main>
+     <!-- Administração de Banco de Dados
+        Salário médio para iniciante: R$ 2.400
+        
+        Salário médio no auge da carreira: R$  8.200
+        
+        Administração de Redes
+        Salário médio para iniciante: R$ 1.660
+        
+         Salário médio no auge da carreira: R$ 10.000
+        
+        Arquitetura da Informação
+        Salário médio para iniciante: R$ 2.800
+        
+        Salário médio no topo da carreira: R$ 10.500
+        
+        E-Commerce
+         Salário médio para iniciante: R$ 2.900
+        
+        Salário médio no auge da carreira: R$ 15.000
+        
+        Processamento de Dados
+        Salário médio para iniciante: R$ 1.300
+        
+        Salário médio no auge da carreira: R$ 9.000
+        
+        Programação
+        Salário médio para iniciante: R$ 1.600
+        
+        Salário médio no topo da carreira: R$ 9.300
+        
+        Qualidade de Software
+        Salário médio para iniciante: R$ 1.500
+        
+        Salário médio no auge da carreira: R$ 8.500
+        
+        Segurança da Informação
+        Salário médio para iniciante: R$ 2.100
+        
+        Salário médio no auge da carreira: R$ 9.000
+        
+        Sistemas
+        Salário médio para iniciante: R$ 2.000
+        
+        Salário médio no auge da carreira: R$ 15.500
+        
+        Suporte Técnico em Informática
+        Salário médio para iniciante: R$ 1.300
+        
+        Salário médio no auge da carreira: R$ 17.000-->
 
-    <footer> <!-- Roda pé -->
-        <nav>
-            
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Sugestões</a></li>
-                <li><a href="#">Localização</a></li>
-        </br>
-        </br>
-        </br>
-        </nav>
+        
+        
+        Você pode usar esses dados como incentivo para decidir por uma área a seguir depois de formado.</p>
 
-        <p>2021 - Todos direitos reservados a Carlos de Sá</p>
-    </footer>
+        </section>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+            <a href="#"><i class="fa fa-facebook-official"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-flickr"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <p class="w3-medium">
+                Powerd by <a href="https://utramig.mg.gov.br" target="_blank">Ultramig</a>
+            </p>
+        </footer>
 </body>
 </html>
