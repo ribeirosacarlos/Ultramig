@@ -3,10 +3,9 @@
 }
 
 .fotos{
-
+    width:auto;
     text-align: center;
     width:500px;
-   
     margin: auto;
 }
 
@@ -21,4 +20,6 @@
     box-shadow: 0 4px 9px 0;
 }
 
-
+.red{
+    color: red;
+}
